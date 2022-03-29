@@ -1,1 +1,0 @@
-npm install jimp --save
