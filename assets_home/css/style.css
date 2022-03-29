@@ -1,0 +1,92 @@
+body{
+    height: 5000px;
+    font: 19px arial, verdana;
+}
+
+/*.navbar {
+    background-color: rgb(94, 94, 94);
+    position: fixed;
+    width: 100%;
+}
+*/
+.logotipo {
+    position: fixed;
+    padding-top: 60px;
+}
+
+.navbar {
+    background: rgba(46, 46, 46, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 10px;
+  
+}
+
+.navbar-nav li a:hover  {
+    background: rgba(24, 24, 24, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+}
+
+
+.marginLogin {
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+
+.colorText {
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+.bg-footer{
+    background-color: black;
+    color: white;
+}
+
+
+.fonteLinks{
+    font: 17px arial, verdana;
+
+}
+
+.fonteLinks a {
+    text-decoration: none;
+    
+}
+
+#quemsomos{
+    padding-top: 100px;
+    background-color: ;
+}
+
+.nav-item1 ul{
+    display: none;
+    position: absolute; /* evita sobrepor a classe pai*/
+    list-style-type: none;
+    
+}
+
+.nav-item1:hover ul  {
+    display: block;
+    
+}
+.nav-item1 ul a:hover {
+    text-decoration: none;
+    background: rgba(46, 46, 46, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+}
+
+.navbar-brand {
+    padding-left: 0px ;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
