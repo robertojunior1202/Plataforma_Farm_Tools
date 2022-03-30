@@ -1,0 +1,11 @@
+/* Setando o mapa base do google maps */
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map {
+    height: 100%;
+    width: auto;
+    background-color: rgb(155, 155, 155);
+  }
